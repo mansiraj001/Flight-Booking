@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: url('background-image.jpg') center/cover; /* Replace 'background-image.jpg' with your background image */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.signin-container h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.signin-container button, .signin-container input, .signin-container a {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signin-container button {
+    background-color: #4285F4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signin-container a {
+    text-decoration: none;
+    color: #4285F4;
+    font-size: 14px;
+}
+
+.signin-container a:hover {
+    text-decoration: underline;
+}

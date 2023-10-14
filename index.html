@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="background-image">
+
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Flight Booking</h1>
+        </div>
+
+        <div class="user-options">
+            <a href="signin.html">Login</a> | <a href="signup.html">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <button></button>
+        <div class="booking-form-alignment">
+            <div class="booking-form">
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="trip" id="one-way">
+                        <label for="one-way">One Way</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="trip" id="round-trip">
+                        <label for="round-trip">Round Trip</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" name="trip" id="multi-city">
+                        <label for="multi-city">Multi City</label>
+                    </div>
+                </div>
+                
+                <div class="search-form">
+
+                    <div class="city">
+                        <label for="from">From</label>
+                        <input type="text" id="from" name="from">
+                        <label for="to">To</label>
+                        <input type="text" id="to" name="to">
+                    </div>
+
+                    <div class="date">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" min="YYYY-MM-DD">
+                        <label for="travelers">Travelers</label>
+                        <input type="number" id="travelers" name="travelers" min="1" max="9">
+                        <label for="class">Class</label>
+                        <select id="class" name="class">
+                            <option value="economy">Economy</option>
+                            <option value="business">Business</option>
+                            <option value="first-class">First Class</option>
+                        </select>
+                    </div>
+                    
+                    <div class="search-box">
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
